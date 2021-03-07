@@ -1,0 +1,40 @@
+[gd_scene load_steps=5 format=2]
+
+[sub_resource type="DynamicFontData" id=1]
+font_path = "res://prstart.ttf"
+
+[sub_resource type="DynamicFont" id=2]
+size = 100
+font_data = SubResource( 1 )
+
+[sub_resource type="DynamicFontData" id=3]
+font_path = "res://prstart.ttf"
+
+[sub_resource type="DynamicFont" id=4]
+size = 30
+font_data = SubResource( 3 )
+
+[node name="Node2D" type="Node2D"]
+position = Vector2( 494.447, -16.8179 )
+
+[node name="Node2D" type="Label" parent="."]
+margin_left = -600.029
+margin_top = -100.986
+margin_right = 299.971
+margin_bottom = 0.0142517
+custom_fonts/font = SubResource( 2 )
+text = "GAME OVER"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = -429.853
+margin_top = 26.65
+margin_right = 110.147
+margin_bottom = 57.65
+custom_fonts/font = SubResource( 4 )
+text = "press R to restart"
+__meta__ = {
+"_edit_use_anchors_": false
+}
